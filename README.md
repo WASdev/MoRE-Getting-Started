@@ -6,7 +6,7 @@
 
 ## About this lab
 
-In this interactive, hands-on lab, you'll explore the cutting-edge capabilities of WebSphere Application Server and MoRE—tools designed to supercharge your modernization journey. 
+In this interactive, hands-on lab, you'll explore the cutting-edge capabilities of WebSphere Application Server and MoRE, which are designed to supercharge your modernization journey. 
 
 Through guided modules, you'll deploy modern Jakarta EE and Spring Framework applications to a Liberty server or cluster, using the WebSphere Administrative Console and/or automation with wsadmin scripts. Whether you're modernizing legacy systems or building cloud-native apps, this lab is your launchpad into the next generation of enterprise application management.
 
