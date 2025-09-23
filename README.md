@@ -19,11 +19,11 @@ This section guides you through the initial setup of the lab environment. Perfor
 
 The lab environment is preinstalled with the following packages:
 
-* WebSphere Application Server Network Deployment (ND), version 9.0.5.24, running on Java SE 8
+* WebSphere Application Server Network Deployment (ND), version 9.0.5.24+, running on Java SE 8
 
-    * Modernized Runtime Extension for Java (MoRE), version 1.0.0.1
+    * Modernized Runtime Extension for Java (MoRE), version 1.0.0.1+
 
-* WebSphere Liberty, version 24.0.0.6, running on Java SE 17
+* WebSphere Liberty, version 24.0.0.6+, running on Java SE 17+
 
 In addition, the environment is preconfigured with the following profiles and server instances:
 
@@ -45,7 +45,7 @@ The next step is to deploy applications to the created Managed Liberty server.
 # Deploy apps to a Managed Liberty Server
 After you have completed the installation, it is time to deploy Jakarta EE 10 or Spring Framework 6.x apps to your Managed Liberty Servers. This downloads contains a couple of apps to help you get started.
 ## A Jakarta EE 10 application
-The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/download/0.0.1/modresorts-2.0.0.war) utilises Jakarta EE 10 technologies. Clicking the above link to the app to download this war to your local system.
+The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/download/0.0.1/modresorts-2.0.0.war) utilises Jakarta EE 10 technologies. Clicking the above link to the app to download this war to your local system. The source code can be found [here](https://github.com/WASdev/more-techXchange-lab/tree/main/module1/modresorts).
 
 ### Installing the application WAR file
 
@@ -94,8 +94,9 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
    * Find the endpoint for the `ModResort` e.g. `http://9.46.96.145:9081/resorts/`. The following should be displayed.
    ![](assets/modresorts.png)
 
-## A Spring Framework 6.x application
-The app [Spring Petclinic](https://github.com/WASdev/more-techXchange-lab/releases/download/0.0.1/spring-petclinic-3.5.0-SNAPSHOT.war) utilises Spring Framework 6.x and Jakarta EE 10 technologies.
+## A Spring Framework 6.x or Spring Boot 3.x application
+The app [Spring Petclinic](https://github.com/WASdev/more-techXchange-lab/releases/download/0.0.1/spring-petclinic-3.5.0-SNAPSHOT.war) utilises Spring Framework 6.x and Jakarta EE 10 technologies. Refere to [this](https://github.com/WASdev/more-techXchange-lab/tree/main/module2#about-the-spring-petclinic-application) instruction for accessing the source code.
+For deploying an application using Spring Framework or Spring Boot technologies, the compatible versions for Spring Framework are 7.x while Spring Boot versions are 3.x. Any earlier versions are not compatible with Jakarta EE 10, so the applications would not work.
 
 You can use the same steps as documented above to install this application.
 
