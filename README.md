@@ -96,7 +96,7 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
 
 ## A Spring Framework 6.x or Spring Boot 3.x application
 The app [Spring Petclinic](https://github.com/WASdev/more-techXchange-lab/releases/download/0.0.1/spring-petclinic-3.5.0-SNAPSHOT.war) utilises Spring Framework 6.x and Jakarta EE 10 technologies. Refere to [this](https://github.com/WASdev/more-techXchange-lab/tree/main/module2#about-the-spring-petclinic-application) instruction for accessing the source code.
-For deploying an application using Spring Framework or Spring Boot technologies, the compatible versions for Spring Framework are 7.x while Spring Boot versions are 3.x. Any earlier versions are not compatible with Jakarta EE 10, so the applications would not work.
+For deploying an application using Spring Framework or Spring Boot technologies, the compatible versions for Spring Framework are 6.x while Spring Boot versions are 3.x. Any earlier versions are not compatible with Jakarta EE 10, so the applications would not work.
 
 You can use the same steps as documented above to install this application.
 
