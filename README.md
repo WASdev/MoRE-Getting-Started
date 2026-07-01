@@ -54,8 +54,11 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
 2. Go to **Applications** &rarr; **New Application** &rarr; <ins>New Enterprise Application</ins>.
 
    ![](assets/install-new-app.png)
+   Newer release has the following screen shot.
+   <img width="843" height="304" alt="image" src="https://github.com/user-attachments/assets/ab857c7e-c0b6-4279-bdb7-b97d652634eb" />
 
-3. In the installation panel:
+
+4. In the installation panel:
 
    * Under **Path to new application**, select **Local file system** and choose the WAR file `modresorts-2.0.0.war` downloaded earlier.
    * Set **Target Runtime Environment** to `WebSphere Liberty`
@@ -63,11 +66,11 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
    Click **Next** and wait for the application to upload.
 ![](assets/modresort-app-install.png)
 
-4. Choose **Fast Path** and click **Next**.
+5. Choose **Fast Path** and click **Next**.
 
-5. Leave **Step 1** unchanged and click **Next**.
+6. Leave **Step 1** unchanged and click **Next**.
 
-6. On **Step 2**, map the application module:
+7. On **Step 2**, map the application module:
 
    * Under **Cluster and servers**, select the server `demo`.
 
@@ -77,14 +80,14 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
    
    Click **Next**.
 
-7. On **Step 3**, confirm that the **Context Root** is set to `/resorts` and click **Next**.
+8. On **Step 3**, confirm that the **Context Root** is set to `/resorts` and click **Next**.
 
-8. On **Step 4**, review the installation summary and click **Finish**.
+9. On **Step 4**, review the installation summary and click **Finish**.
 
-9. After the installation completes, click <ins>Review</ins>. 
+10. After the installation completes, click <ins>Review</ins>. 
    
    Select **Synchronize changes with Nodes**, and click **Save**. Click **OK** when synchronization is complete.
-10. Start the Managed Liberty server `demo`, by following the following instructions.
+11. Start the Managed Liberty server `demo`, by following the following instructions.
    * Go to **Servers** &rarr; **Server Types** &rarr; **WebSphere Application Servers** &rarr;
    * Click on the checkbox next to `demo` and click on `Start` button. 
    ![](assets/start-demo-mls.png)
