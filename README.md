@@ -32,16 +32,17 @@ In addition, the environment is preconfigured with the following profiles and se
 After the instllation, follow this steps to create a Managed Liberty Server `demo`.
 1.  Launch the **WAS Admin Console** by selecting it from your browser bookmarks or navigating to the https://localhost:9043/ibm/console URL.
 2. Go to **Servers** &rarr; **Server Types** &rarr; **WebSphere Application Servers** &rarr;<ins>New...</ins>.
-![](assets/new-server.png)
 <img width="842" height="347" alt="image" src="https://github.com/user-attachments/assets/0885e960-8699-42e4-a142-496cac9fa47a" />
 
 4. In the `Application servers` panel,  
 * Under **New...**, select **Managed Liberty server** and type `demo` under the `Server name` textbox.
-![](assets/new-demo-mls.png)
+<img width="1676" height="655" alt="image" src="https://github.com/user-attachments/assets/8a1dd541-d052-45e1-8e39-0dfac6987926" />
+
 4. Click **Next** on Step 2 and 3.
 5. Click **Finish** on Step 4.
 6. Click **Save** on the displayed message.
-![](assets/save-mls.png)
+<img width="1481" height="911" alt="image" src="https://github.com/user-attachments/assets/d1cdf427-4153-449e-9951-89d0f45c92b3" />
+
 The next step is to deploy applications to the created Managed Liberty server.
 
 # Deploy apps to a Managed Liberty Server
@@ -55,15 +56,17 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
 
 2. Go to **Applications** &rarr; **New Application** &rarr; <ins>New Enterprise Application</ins>.
 
-   ![](assets/install-new-app.png)
+<img width="1374" height="743" alt="image" src="https://github.com/user-attachments/assets/4e06461f-d54b-4ed7-a883-375bb1b129fb" />
+
 
 4. In the installation panel:
 
    * Under **Path to new application**, select **Local file system** and choose the WAR file `modresorts-2.0.0.war` downloaded earlier.
-   * Set **Target Runtime Environment** to `WebSphere Liberty`
+   * Set **Target Runtime Environment** to `Jakarta EE 10`
    
    Click **Next** and wait for the application to upload.
-![](assets/modresort-app-install.png)
+<img width="1372" height="746" alt="image" src="https://github.com/user-attachments/assets/38f7606f-3bbf-4db4-b8af-3c0bdb3943c4" />
+
 
 5. Choose **Fast Path** and click **Next**.
 
@@ -89,12 +92,14 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
 11. Start the Managed Liberty server `demo`, by following the following instructions.
    * Go to **Servers** &rarr; **Server Types** &rarr; **WebSphere Application Servers** &rarr;
    * Click on the checkbox next to `demo` and click on `Start` button. 
-   ![](assets/start-demo-mls.png)
+<img width="1493" height="638" alt="image" src="https://github.com/user-attachments/assets/52db489f-7c68-4c67-9608-3406f7400155" />
+
    Both the server and the app should be started.
 11. Try out the application
    * On a terminal window, go the `demo` MLS and then display `console.log` e.g. (cat /opt/IBM/WASND/profiles/AppSrv01/managedLiberty/usr/servers/demo/logs/console.log). 
    * Find the endpoint for the `ModResort` e.g. `http://9.46.96.145:9081/resorts/`. The following should be displayed.
-   ![](assets/modresorts.png)
+ <img width="1677" height="965" alt="image" src="https://github.com/user-attachments/assets/3ed0e695-8cfd-45a9-b8b5-852de829cb37" />
+
 
 ## A Spring Framework 6.x or Spring Boot 3.x application
 The app [Spring Petclinic](https://github.com/WASdev/more-techXchange-lab/releases/download/0.0.1/spring-petclinic-3.5.0-SNAPSHOT.war) utilises Spring Framework 6.x and Jakarta EE 10 technologies. Refere to [this](https://github.com/WASdev/more-techXchange-lab/tree/main/module2#about-the-spring-petclinic-application) instruction for accessing the source code.
