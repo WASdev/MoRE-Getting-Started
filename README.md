@@ -92,7 +92,7 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
 11. Start the Managed Liberty server `demo`, by following the following instructions.
    * Go to **Servers** &rarr; **Server Types** &rarr; **WebSphere Application Servers** &rarr;
    * Click on the checkbox next to `demo` and click on `Start` button. 
-<img width="1493" height="638" alt="image" src="https://github.com/user-attachments/assets/52db489f-7c68-4c67-9608-3406f7400155" />
+<img width="1481" height="719" alt="image" src="https://github.com/user-attachments/assets/7987fbe6-c345-4f53-9f3a-db628d7ef416" />
 
    Both the server and the app should be started.
 11. Try out the application
