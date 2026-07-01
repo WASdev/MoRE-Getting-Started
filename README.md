@@ -33,7 +33,9 @@ After the instllation, follow this steps to create a Managed Liberty Server `dem
 1.  Launch the **WAS Admin Console** by selecting it from your browser bookmarks or navigating to the https://localhost:9043/ibm/console URL.
 2. Go to **Servers** &rarr; **Server Types** &rarr; **WebSphere Application Servers** &rarr;<ins>New...</ins>.
 ![](assets/new-server.png)
-3. In the `Application servers` panel,  
+<img width="842" height="347" alt="image" src="https://github.com/user-attachments/assets/0885e960-8699-42e4-a142-496cac9fa47a" />
+
+4. In the `Application servers` panel,  
 * Under **New...**, select **Managed Liberty server** and type `demo` under the `Server name` textbox.
 ![](assets/new-demo-mls.png)
 4. Click **Next** on Step 2 and 3.
