@@ -19,11 +19,11 @@ This section guides you through the initial setup of the lab environment. Perfor
 
 The lab environment is preinstalled with the following packages:
 
-* WebSphere Application Server Network Deployment (ND), version 9.0.5.24+, running on Java SE 8
+* WebSphere Application Server Network Deployment (ND), version 9.0.5.28+, running on Java SE 8
 
-    * Modernized Runtime Extension for Java (MoRE), version 1.0.0.1+
+    * Modernized Runtime Extension for Java (MoRE), version 1.0.3.0+
 
-* WebSphere Liberty, version 24.0.0.6+, running on Java SE 17+
+* WebSphere Liberty, version 26.0.0.6+, running on Java SE 17+
 
 In addition, the environment is preconfigured with the following profiles and server instances:
 
@@ -54,9 +54,6 @@ The app [modResort](https://github.com/WASdev/more-techXchange-lab/releases/down
 2. Go to **Applications** &rarr; **New Application** &rarr; <ins>New Enterprise Application</ins>.
 
    ![](assets/install-new-app.png)
-   Newer release has the following screen shot.
-   <img width="843" height="304" alt="image" src="https://github.com/user-attachments/assets/ab857c7e-c0b6-4279-bdb7-b97d652634eb" />
-
 
 4. In the installation panel:
 
